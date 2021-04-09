@@ -1,9 +1,9 @@
 Tape Measure
 ============
 
-A slider with tape measure look. A drop-in replacement for [Slider] with a few extra features.
+A slider with tape measure look. A drop-in replacement for `Slider` with a few extra features.
 
-Use it just like a regular [Slider]:
+Use it just like a regular `Slider`:
 
 
 ```dart
@@ -25,3 +25,5 @@ TapeMeasureSliderlider(
   },
 )
 ```
+
+![Screenshot](https://raw.githubusercontent.com/deakjahn/tape_measzre/master/example/assets/Screenshot.png "Screenshot")
