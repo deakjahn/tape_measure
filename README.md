@@ -26,4 +26,4 @@ TapeMeasureSliderlider(
 )
 ```
 
-![Screenshot](https://raw.githubusercontent.com/deakjahn/tape_measzre/master/example/assets/Screenshot.png "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/deakjahn/tape_measure/master/example/assets/Screenshot.png "Screenshot")
