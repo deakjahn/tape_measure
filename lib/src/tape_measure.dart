@@ -457,7 +457,7 @@ class _TapeMeasureSliderState extends State<TapeMeasureSlider> with TickerProvid
           child: _SliderRenderObjectWidget(
             key: _renderObjectKey,
             value: _unlerp(widget.value),
-            divisions: widget.divisions,
+            divisions: widget.divisions + 1,
             mainTickEvery: widget.mainTickEvery,
             mainSnapDistance: widget.mainSnapDistance,
             label: widget.label,
