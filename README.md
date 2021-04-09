@@ -7,7 +7,7 @@ Use it just like a regular `Slider`:
 
 
 ```dart
-TapeMeasureSliderlider(
+TapeMeasureSlider(
   value: sliderValue,
     min: 0,
     max: 360,
