@@ -76,7 +76,7 @@ class TapeMeasureSlider extends StatefulWidget {
     this.autofocus = false,
   })  : assert(value >= min && value <= max),
         assert(divisions > 0),
-        assert(bigTickEvery > smallTickEvery && bigTickEvery % smallTickEvery == 0, 'bigTickEvery not divisible by smallTickEvery'),
+        assert(bigTickEvery >= smallTickEvery && bigTickEvery % smallTickEvery == 0, 'bigTickEvery not divisible by smallTickEvery'),
         assert(mainTickEvery == null || (mainTickEvery >= bigTickEvery && mainTickEvery % bigTickEvery == 0), 'mainTickEvery not divisible by bigTickEvery'),
         super(key: key);
 
