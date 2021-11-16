@@ -5,7 +5,6 @@ A slider with tape measure look. A drop-in replacement for `Slider` with a few e
 
 Use it just like a regular `Slider`:
 
-
 ```dart
 TapeMeasureSlider(
   value: sliderValue,

@@ -1,5 +1,5 @@
 name: tape_measure_example
-description: Exmaple for tape_measure.
+description: Example for tape_measure.
 version: 1.0.1+2
 homepage: https://github.com/deakjahn/tape_measure
 
@@ -19,7 +19,7 @@ dev_dependencies:
   tape_measure:
     path: ../
 
-  pedantic: ^1.11.0
+  flutter_lints: ^1.0.0
 
 flutter:
   uses-material-design: true
