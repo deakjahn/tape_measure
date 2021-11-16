@@ -405,7 +405,7 @@ class _TapeMeasureSliderState extends State<TapeMeasureSlider> with TickerProvid
     const double _defaultTrackHeight = 4;
     const SliderTrackShape _defaultTrackShape = RoundedRectSliderTrackShape();
     final SliderTickMarkShape _defaultTickMarkShape = _TapeMeasureTick(smallTickEvery: widget.smallTickEvery, bigTickEvery: widget.bigTickEvery, mainTickEvery: widget.mainTickEvery);
-    final SliderComponentShape _defaultOverlayShape = _TapeMeasureOverlay();
+    const SliderComponentShape _defaultOverlayShape = _TapeMeasureOverlay();
     final SliderComponentShape _defaultThumbShape = _TapeMeasureThumb(min: widget.min.toInt(), max: widget.max.toInt());
 
     sliderTheme = sliderTheme.copyWith(
@@ -515,7 +515,7 @@ class _TapeMeasureThumb extends SliderComponentShape {
       ..color = sliderTheme.thumbColor!
       ..style = PaintingStyle.fill;
 
-    TextSpan span = TextSpan(style: TextStyle(fontSize: thumbHeight * 0.5, fontWeight: FontWeight.w700, color: Colors.white, height: 0.9), text: '${getValue(value)}');
+    TextSpan span = TextSpan(style: TextStyle(fontSize: thumbHeight * 0.5, fontWeight: FontWeight.w700, color: Colors.white, height: 0.9), text: getValue(value));
     TextPainter tp = TextPainter(text: span, textAlign: TextAlign.left, textDirection: TextDirection.ltr);
     tp.layout();
     Offset textCenter = Offset(center.dx - (tp.width / 2), center.dy - (tp.height / 2));
