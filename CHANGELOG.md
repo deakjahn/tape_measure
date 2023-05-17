@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.3] - 2020-05-17
+
+* Broader Flutter version range.
+
 ## [1.0.2] - 2020-04-27
 
 * Fixing big-small ticks.
