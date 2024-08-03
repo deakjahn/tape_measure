@@ -221,7 +221,7 @@ class TapeMeasureSlider extends StatefulWidget {
   final bool autofocus;
 
   @override
-  _TapeMeasureSliderState createState() => _TapeMeasureSliderState();
+  State<TapeMeasureSlider> createState() => _TapeMeasureSliderState();
 
   @override
   void debugFillProperties(DiagnosticPropertiesBuilder properties) {
