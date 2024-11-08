@@ -23,8 +23,6 @@ TapeMeasureSlider(
 )
 ```
 
-![Screenshot](https://raw.githubusercontent.com/deakjahn/tape_measure/master/example/assets/Screenshot.png "Screenshot")
-
 # Support
 
 If you like this package, please consider supporting it.
