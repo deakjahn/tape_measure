@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.4] - 2024-11-08
+
+* Funding.
+
 ## [1.0.3] - 2020-05-17
 
 * Broader Flutter version range.
