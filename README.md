@@ -1,5 +1,7 @@
 # Tape Measure
 
+[![pub package](https://img.shields.io/pub/v/tape_measure.svg)](https://pub.dev/packages/tape_measure)
+
 A slider with tape measure look. A drop-in replacement for `Slider` with a few extra features.
 
 Use it just like a regular `Slider`:
@@ -27,4 +29,4 @@ TapeMeasureSlider(
 
 If you like this package, please consider supporting it.
 
-[![buy me a book](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20book&emoji=📚&slug=deakjahn&button_colour=FF8838&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff')](https://www.buymeacoffee.com/deakjahn)
+<a href="https://www.buymeacoffee.com/deakjahn" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Book" height="60" width="217"></a>
