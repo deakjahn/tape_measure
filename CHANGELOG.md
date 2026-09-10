@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.5] - 2026-09-10
+
+* Material_ui support
+* AGP 9, Kotlin DSL.
+* Dependent updates.
+
 ## [1.0.4] - 2024-11-08
 
 * Funding.
